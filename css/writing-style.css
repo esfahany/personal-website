@@ -62,8 +62,8 @@ body {
     padding-left: 0px;
 }
 
-.break-writing-block-header {
-    display: none;
+.break-writing-block-header{
+    display: block;
 }
 
 .card-header-secondary-small {
@@ -266,7 +266,7 @@ body {
 .dropdown-section {
     padding-left: 35px;
     padding-right: 25px;
-
+}
 
 @media screen and (max-width: 800px) {
     /* center profile image on small screens */
@@ -300,10 +300,10 @@ body {
 
     .break-writing-block-header {
         display: block;
+
     }
 
     .card-header-secondary {
         padding-left: 25px;
     }
-
 }
