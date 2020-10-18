@@ -259,6 +259,10 @@ body {
     color: #89A6B7;
 }
 
+.data-vis {
+    background: #DAF0FF;
+}
+
 .dropdown-section {
     padding-left: 35px;
     padding-right: 25px;
