@@ -1,0 +1,225 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    font-family: Signika, sans-serif;
+}
+
+/***** NAVBAR STYLING *****/
+
+.navbar {
+    background-color: #f0f6de !important; /* background color requires !imp tag */
+}
+
+/* "kathleen nguyen esfahany" on left corner of nav" */
+.navbar-brand {
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.nav-item {
+    letter-spacing: 0.7px;
+    font-weight: 300 !important;
+    font-size: 18px;
+    padding-left: 20px !important;
+}
+
+.active {
+    font-weight: 400 !important;
+}
+
+/***** ABOUT PAGE *****/
+
+/* make profile image a circle */
+.image-circle-crop {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;    
+}
+
+/* make it right-aligned on large screens */
+.image-align {
+    text-align: right; /* change when page shrinks */
+}
+
+.column {
+    width: 50%; /* number of columns */ /* change when page shrinks */
+
+    padding-left: 25px; /* space between cards */
+    padding-right: 25px;
+
+    padding-top: 60px; /* change when page shrinks */
+}
+  
+.row {
+    max-width: 800px; /* change on smaller screen */
+    position: relative;
+    margin: auto; /* centers the content and automatically reduces the margin as the page changes */
+}
+
+.about-text-position {
+    padding-top: 70px; /* extra padding for text */
+}
+
+.about-text-style {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+
+.about-text-icons {
+    color: #C7CBB8;
+}
+
+.social-icons {
+    color: #ABAE9F;
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+.currently-section {
+    padding-top: 50px;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.currently-style {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    font-weight: 300;
+    letter-spacing: 0.6px;
+    font-size: 16px;
+    line-height: 1.4em;
+    /* margin-top: 40px; */
+}
+
+.currently-link {
+    color: #5F740D;
+    font-weight: 500;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    /* center profile image on small screens */
+    .image-align {
+        text-align: center;
+    }
+
+    .row {
+        max-width: 400px; /* make smaller on smaller screens to keep text tight */
+        margin: auto;
+    }
+    .column {
+      width: 100%; /* make the photo and the text have their own row */
+      padding-top: 40px; /* reduce padding on smaller screens */
+
+      /* display: block; */
+      /* margin-bottom: 20px; */
+    }
+
+    .currently-section {
+        padding-top: 50px;
+        max-width: 400px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+}
+
+/***** Writing Page *****/
+.accordion {
+    padding-top: 60px; /* create space at the top */
+    max-width: 800px; /* define max width; is responsive! */
+    margin: auto; /* to center the content */
+}
+
+.card-header {
+    padding: 0; /* reduce (or change) padding around text in block */
+    background-color: #f0f6de;
+    /* color: red; */
+    text-align: left;
+}
+
+.card-shade-1 {
+    background-color: #e4f2e3;
+}
+
+.card-shade-2 {
+    background-color: #e9fbff;
+}
+
+.card-shade-3 {
+    background-color: #ebf9ff;
+}
+
+.btn p {
+    color: black; /* make text black */
+    font-size: 20px;
+    margin: 0;
+    letter-spacing: 1.1px;
+    font-weight: 500;
+    margin-bottom: -10px;
+}
+
+.btn {
+    text-decoration: none !important;
+}
+
+/* .btn:hover {
+    text-decoration: none !important;
+} */
+
+.block-spacing{
+    padding-top: 10px;
+}
+
+.block-subhead {
+    color: black;
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 37.5px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.writing-block-icon {
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.writing-block-icon-open {
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+/* icon when block collapsed */
+.btn.collapsed .writing-block-icon {
+    display: inline-block;
+}
+
+/* icon when block expanded */
+.btn .writing-block-icon {
+    display: none;
+}
+
+/* open icon when block collapsed */
+.btn.collapsed .writing-block-icon-open {
+    display:  none;
+}
+
+/* open icon when block expanded */
+.btn .writing-block-icon-open {
+    display: inline-block;
+}

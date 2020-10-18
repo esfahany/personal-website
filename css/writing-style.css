@@ -1,0 +1,307 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    font-family: Signika, sans-serif;
+}
+
+/***** NAVBAR STYLING *****/
+
+.navbar {
+    background-color: #f0f6de !important; /* background color requires !imp tag */
+}
+
+/* "kathleen nguyen esfahany" on left corner of nav" */
+.navbar-brand {
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.nav-item {
+    letter-spacing: 0.7px;
+    font-weight: 300 !important;
+    font-size: 18px;
+    padding-left: 20px !important;
+}
+
+.active {
+    font-weight: 400 !important;
+}
+
+
+/***** Writing Page *****/
+.section-header {
+    font-size: 20px;
+    letter-spacing: 0.7px;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.accordion {
+    padding-top: 40px; /* create space at the top */
+    max-width: 700px; /* define max width; is responsive! */
+    margin: auto; /* to center the content */
+}
+
+.card-header {
+    padding: 0; /*reduce (or change) padding around text in block*/
+    padding-left: 15px;
+    background-color: #f0f6de;
+    /* color: red; */
+    text-align: left;
+}
+
+.card-header-secondary {
+    color: #7C7C7C;
+    font-weight: 300;
+    padding-left: 0px;
+}
+
+.break-writing-block-header {
+    display: none;
+}
+
+.card-header-secondary-small {
+    color: #7C7C7C;
+    font-weight: 300;
+    display: none;
+}
+
+.card-shade-1 {
+    background-color: #ECF5ED;
+}
+
+.card-shade-2 {
+    background-color: #E8F4F8;
+}
+
+.card-shade-3 {
+    background-color: #E6F4FF;
+}
+
+.card-shade-4 {
+    background-color: #E3EBF1;
+}
+
+.btn p {
+    color: black; /* make text black */
+    font-size: 20px;
+    margin: 0;
+    letter-spacing: 0.8px;
+    font-weight: 500;
+    margin-bottom: -10px;
+    text-align: left; /*important for subhead alignment on small screen */
+}
+
+.btn {
+    text-decoration: none !important;
+}
+
+.block-spacing{
+    padding-top: 10px;
+}
+
+.block-subhead {
+    color: black;
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 42px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.writing-block-icon {
+    font-size: 20px;
+    padding-right: 15px;
+}
+
+.writing-block-icon-open {
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+/* icon when block collapsed */
+.btn.collapsed .writing-block-icon {
+    display: inline-block;
+}
+
+/* icon when block expanded */
+.btn .writing-block-icon {
+    display: none;
+}
+
+/* open icon when block collapsed */
+.btn.collapsed .writing-block-icon-open {
+    display:  none;
+}
+
+/* open icon when block expanded */
+.btn .writing-block-icon-open {
+    display: inline-block;
+}
+
+
+/* inside drop downs */
+/* MIT Admissions Blogs */
+/* make profile image a circle */
+.image-avatar {
+    max-width: 150px;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+/* make it right-aligned on large screens */
+.image-align {
+    text-align: center; /* change when page shrinks */
+}
+
+.column1 {
+    width: 35%; /* number of columns */ /* change when page shrinks */
+
+    padding-left: 25px; /* space between cards */
+    padding-right: 25px;
+
+    padding-top: 0px; /* change when page shrinks */
+}
+ 
+.column2 {
+    width: 65%; /* number of columns */ /* change when page shrinks */
+
+    padding-left: 25px; /* space between cards */
+    padding-right: 25px;
+
+    padding-top: 0px; /* change when page shrinks */
+}
+
+.row {
+    max-width: 800px; /* change on smaller screen */
+    position: relative;
+    margin: auto; /* centers the content and automatically reduces the margin as the page changes */
+}
+
+.admissions-text {
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+.admissions-text a {
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+}
+
+.admissions-text a:hover {
+    color: #0075BA;
+ 
+}
+
+.admissions-text-icons {
+    color: #C7CBB8;
+    font-size: 20px;
+    padding-right: 2px;
+}
+
+.blog-item{
+    padding-bottom: 10px;
+}
+
+.blog-item a {
+    color: black;
+}
+
+.blog-item a:hover {
+    text-decoration: none;
+    color: #0075BA;
+}
+
+.blog-title {
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.blog-title .a{
+    color: black;
+}
+
+.blog-date {
+    margin: 0;
+    font-size: 14px;
+    letter-spacing: 0.8px;
+    font-weight: 300;
+    color: grey;
+}
+
+.blog-subtitle {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 300;
+    color: #89A6B7;
+}
+
+/* potentially delete */
+/* .about-text-position {
+    padding-top: 0px;
+} */
+
+.about-text-style {
+    font-weight: 300;
+    letter-spacing: 0.6px;
+    font-size: 18px;
+    line-height: 1.4em;
+}
+
+.social-icons {
+    color: #ABAE9F;
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    /* center profile image on small screens */
+    .image-align {
+        text-align: center;
+    }
+
+    .row {
+        max-width: 400px; /* make smaller on smaller screens to keep text tight */
+        margin: auto;
+    }
+    .column1 {
+      width: 100%; /* make the photo and the text have their own row */
+      padding-top: 10px; /* reduce padding on smaller screens */
+
+      /* display: block; */
+      /* margin-bottom: 20px; */
+    }
+
+    .column2 {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .currently-section {
+        padding-top: 50px;
+        max-width: 400px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .break-writing-block-header {
+        display: block;
+    }
+
+    .card-header-secondary {
+        padding-left: 25px;
+    }
+
+}
