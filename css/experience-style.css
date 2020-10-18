@@ -172,9 +172,13 @@ p {
 .description {
     font-size: 14px;
     font-weight: 300;
-    padding: 10px 0px;
+    padding-top: 10px;
     letter-spacing: 0.7px;
     line-height: 1.3em;
+}
+
+.description p {
+    padding-bottom: 5px;
 }
 
 .description a{
@@ -228,6 +232,10 @@ p {
 
 .policy {
     background-color: #F7ECCA;
+}
+
+li {
+    display: list-item;
 }
 
 
