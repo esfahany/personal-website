@@ -191,21 +191,34 @@ body {
     padding-bottom: 15px;
 }
 
+.admissions-text p {
+    margin: 0;
+    color: black;
+    font-weight: 300;
+}
+
 .admissions-text a {
     text-decoration: none;
     color: black;
     font-weight: 300;
 }
 
+.tight-link {
+    padding-bottom: 0px;
+}
+
 .admissions-text a:hover {
     color: #0075BA;
  
 }
-
 .admissions-text-icons {
     color: #C7CBB8;
     font-size: 20px;
     padding-right: 2px;
+}
+
+.admissions-text:hover .admissions-text-icons {
+    color:#0075BA;
 }
 
 .blog-item{
@@ -246,24 +259,9 @@ body {
     color: #89A6B7;
 }
 
-/* potentially delete */
-/* .about-text-position {
-    padding-top: 0px;
-} */
-
-.about-text-style {
-    font-weight: 300;
-    letter-spacing: 0.6px;
-    font-size: 18px;
-    line-height: 1.4em;
-}
-
-.social-icons {
-    color: #ABAE9F;
-    font-size: 30px;
-    padding-right: 10px;
-}
-
+.dropdown-section {
+    padding-left: 35px;
+    padding-right: 25px;
 
 
 @media screen and (max-width: 800px) {
