@@ -63,7 +63,7 @@ body {
 }
 
 .break-writing-block-header{
-    display: block;
+    display: none;
 }
 
 .card-header-secondary-small {
@@ -268,6 +268,11 @@ body {
     padding-right: 25px;
 }
 
+.computerworld-logo {
+    max-width: 550px;
+    padding-bottom: 20px;
+}
+
 @media screen and (max-width: 800px) {
     /* center profile image on small screens */
     .image-align {
@@ -300,10 +305,13 @@ body {
 
     .break-writing-block-header {
         display: block;
-
     }
 
     .card-header-secondary {
         padding-left: 25px;
+    }
+
+    .computerworld-logo {
+        width: 300px;
     }
 }
