@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    font-family: Signika, sans-serif;
+}
+
+/***** NAVBAR STYLING *****/
+
+.navbar {
+    background-color: #f0f6de !important; /* background color requires !imp tag */
+}
+
+/* "kathleen nguyen esfahany" on left corner of nav" */
+.navbar-brand {
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.nav-item {
+    letter-spacing: 0.7px;
+    font-weight: 300 !important;
+    font-size: 18px;
+    padding-left: 20px !important;
+}
+
+.active {
+    font-weight: 400 !important;
+}
+
+/***** PROJECTS PAGE *****/
+
+
+
+@media screen and (max-width: 800px) {
+
+
+    .row {
+        max-width: 400px; /* make smaller on smaller screens to keep text tight */
+        margin: auto;
+    }
+    .column {
+      width: 100%; /* make the photo and the text have their own row */
+      padding-top: 40px; /* reduce padding on smaller screens */
+
+      /* display: block; */
+      /* margin-bottom: 20px; */
+    }
+
+
+}
