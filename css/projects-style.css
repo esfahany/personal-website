@@ -75,7 +75,7 @@ p {
 .proj-img {
     position: relative;
     object-fit: cover;
-    object-position: 50% 20%; /* defines how object fits within img window */
+    object-position: 50% 50%; /* defines how object fits within img window */
     height: 45%;
     width: 100%;
 
@@ -83,7 +83,7 @@ p {
     border-style: solid;
     border-color: #C6DDEF;
     border-radius: 6px;
-    border-width: 2px;
+    border-width: 0px;
 }
 
 .proj-title {
@@ -95,7 +95,6 @@ p {
 
     /* positioning */
     padding-top: 20px;
-    /* padding-bottom: 1px; */
 }
 
 .proj-title a{
@@ -115,10 +114,9 @@ p {
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 0.5px;
-    /* font-style: italic; */
 
     /* positioning */
-    padding-top: 8px;
+    padding-top: 10px;
     padding-bottom: 10px;
 }
 
