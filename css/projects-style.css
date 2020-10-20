@@ -182,9 +182,9 @@ p {
         display: flex;
     }
 
-    .card {
+    /* .card {
         width: 200px;
-    }
+    } */
 
     .proj-title {
         font-size: 16px;
