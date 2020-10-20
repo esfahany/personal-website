@@ -51,8 +51,6 @@ body {
 .card-header {
     padding: 0; /*reduce (or change) padding around text in block*/
     padding-left: 15px;
-    background-color: #f0f6de;
-    /* color: red; */
     text-align: left;
 }
 
