@@ -26,7 +26,7 @@ body {
     letter-spacing: 0.7px;
     font-weight: 300 !important;
     font-size: 18px;
-    padding-left: 20px !important;
+    padding-right: 30px !important;
 }
 
 .active {
@@ -35,6 +35,16 @@ body {
 
 
 /***** Writing Page *****/
+
+.top-text {
+    margin: 0;
+    color: gray;
+    font-weight: 300;
+    letter-spacing: 0.7px;
+    font-style: italic;
+    padding-bottom: 15px;
+}
+
 .section-header {
     font-size: 20px;
     letter-spacing: 0.7px;
@@ -43,7 +53,7 @@ body {
 }
 
 .accordion {
-    padding-top: 40px; /* create space at the top */
+    padding-top: 20px; /* create space at the top */
     max-width: 700px; /* define max width; is responsive! */
     margin: auto; /* to center the content */
 }
