@@ -78,6 +78,7 @@ body {
 
 .about-text-icons {
     color: #C7CBB8;
+    padding-right: 5px;
 }
 
 .social-icons {
@@ -88,7 +89,7 @@ body {
 
 .currently-section {
     padding-top: 50px;
-    max-width: 650px;
+    max-width: 655px;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
