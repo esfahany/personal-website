@@ -9,31 +9,6 @@ body {
     font-family: Signika, sans-serif;
 }
 
-/***** NAVBAR STYLING *****/
-
-.navbar {
-    background-color: #f0f6de !important; /* background color requires !imp tag */
-}
-
-/* "kathleen nguyen esfahany" on left corner of nav" */
-.navbar-brand {
-    letter-spacing: 1.5px;
-    font-weight: 400;
-    font-size: 20px;
-}
-
-.nav-item {
-    letter-spacing: 0.7px;
-    font-weight: 300 !important;
-    font-size: 18px;
-    padding-right: 30px !important;
-}
-
-.active {
-    font-weight: 400 !important;
-}
-
-
 /***** Writing Page *****/
 
 .top-text {
