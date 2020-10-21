@@ -74,7 +74,7 @@ p {
 
 .proj-img {
     position: relative;
-    object-fit: cover;
+    object-fit: contain;
     object-position: 50% 50%; /* defines how object fits within img window */
     height: 45%;
     width: 100%;
