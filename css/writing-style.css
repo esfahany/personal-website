@@ -54,6 +54,11 @@ body {
     text-align: left;
 }
 
+.card-header:hover {
+    cursor: pointer;
+    filter: brightness (40%);
+}
+
 .card-header-secondary {
     color: #7C7C7C;
     font-weight: 300;
@@ -74,16 +79,32 @@ body {
     background-color: #ECF5ED;
 }
 
+.card-shade-1:hover {
+    background-color: #D7EAD8;
+}
+
 .card-shade-2 {
     background-color: #E8F4F8;
+}
+
+.card-shade-2:hover {
+    background-color: #D0E9F1;
 }
 
 .card-shade-3 {
     background-color: #E6F4FF;
 }
 
+.card-shade-3:hover {
+    background-color: #C2E4FF;
+}
+
 .card-shade-4 {
     background-color: #E3EBF1;
+}
+
+.card-shade-4:hover {
+    background-color: #C9D8E4;
 }
 
 .btn p {
