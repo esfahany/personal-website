@@ -39,11 +39,6 @@ body {
     text-align: left;
 }
 
-.card-header:hover {
-    cursor: pointer;
-    filter: brightness (40%);
-}
-
 .card-header-secondary {
     color: #7C7C7C;
     font-weight: 300;
