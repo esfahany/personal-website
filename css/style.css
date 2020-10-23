@@ -71,10 +71,15 @@ body {
     padding-right: 8px;
 }
 
-.social-icons {
+.social-icons-section a{
     color: #ABAE9F;
     font-size: 30px;
     padding-right: 10px;
+}
+
+/* get rid of tiny underline on hover */
+.social-icons-section a:hover{
+    text-decoration: none;
 }
 
 .currently-section {
